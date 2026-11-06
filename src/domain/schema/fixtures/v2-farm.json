@@ -1,0 +1,273 @@
+{
+  "format": "clover-fields",
+  "v": 2,
+  "rev": 57,
+  "savedAt": 1793880060000,
+  "farmId": "test-farm",
+  "state": {
+    "v": 2,
+    "meta": {
+      "farmId": "test-farm",
+      "createdAt": 1793880000000,
+      "lastNow": 1793880000000,
+      "nextId": 19,
+      "witherSalt": 42,
+      "dayOffsetMin": 0
+    },
+    "rng": {
+      "seed": 1234,
+      "counter": 0
+    },
+    "land": {
+      "size": 12,
+      "expansionIndex": 0
+    },
+    "wallet": {
+      "coins": 600,
+      "clovers": 5
+    },
+    "progress": {
+      "xp": 0,
+      "level": 1
+    },
+    "objects": {
+      "o1": {
+        "id": "o1",
+        "x": 9,
+        "y": 0,
+        "rot": 0,
+        "placedAt": 1793880000000,
+        "kind": "building",
+        "defId": "tool_shed",
+        "tier": 1,
+        "occupants": [],
+        "jobs": []
+      },
+      "o2": {
+        "id": "o2",
+        "x": 2,
+        "y": 4,
+        "rot": 0,
+        "placedAt": 1793880000000,
+        "kind": "plot",
+        "defId": "plot",
+        "soil": "planted",
+        "crop": {
+          "cropId": "clover_sprout",
+          "plantedAt": 1793879880000,
+          "revivedAt": null,
+          "witherProof": true,
+          "fertilized": false
+        }
+      },
+      "o3": {
+        "id": "o3",
+        "x": 3,
+        "y": 4,
+        "rot": 0,
+        "placedAt": 1793880000000,
+        "kind": "plot",
+        "defId": "plot",
+        "soil": "planted",
+        "crop": {
+          "cropId": "clover_sprout",
+          "plantedAt": 1793879880000,
+          "revivedAt": null,
+          "witherProof": true,
+          "fertilized": false
+        }
+      },
+      "o4": {
+        "id": "o4",
+        "x": 4,
+        "y": 4,
+        "rot": 0,
+        "placedAt": 1793880000000,
+        "kind": "plot",
+        "defId": "plot",
+        "soil": "planted",
+        "crop": {
+          "cropId": "clover_sprout",
+          "plantedAt": 1793879880000,
+          "revivedAt": null,
+          "witherProof": true,
+          "fertilized": false
+        }
+      },
+      "o5": {
+        "id": "o5",
+        "x": 5,
+        "y": 4,
+        "rot": 0,
+        "placedAt": 1793880000000,
+        "kind": "plot",
+        "defId": "plot",
+        "soil": "planted",
+        "crop": {
+          "cropId": "clover_sprout",
+          "plantedAt": 1793879880000,
+          "revivedAt": null,
+          "witherProof": true,
+          "fertilized": false
+        }
+      },
+      "o6": {
+        "id": "o6",
+        "x": 2,
+        "y": 5,
+        "rot": 0,
+        "placedAt": 1793880000000,
+        "kind": "plot",
+        "defId": "plot",
+        "soil": "plowed",
+        "crop": null
+      },
+      "o7": {
+        "id": "o7",
+        "x": 3,
+        "y": 5,
+        "rot": 0,
+        "placedAt": 1793880000000,
+        "kind": "plot",
+        "defId": "plot",
+        "soil": "plowed",
+        "crop": null
+      },
+      "o8": {
+        "id": "o8",
+        "x": 4,
+        "y": 5,
+        "rot": 0,
+        "placedAt": 1793880000000,
+        "kind": "plot",
+        "defId": "plot",
+        "soil": "plowed",
+        "crop": null
+      },
+      "o9": {
+        "id": "o9",
+        "x": 5,
+        "y": 5,
+        "rot": 0,
+        "placedAt": 1793880000000,
+        "kind": "plot",
+        "defId": "plot",
+        "soil": "plowed",
+        "crop": null
+      },
+      "o10": {
+        "id": "o10",
+        "x": 8,
+        "y": 5,
+        "rot": 0,
+        "placedAt": 1793880000000,
+        "kind": "tree",
+        "defId": "rosy_apple",
+        "cycleStart": 1793858400000
+      },
+      "o11": {
+        "id": "o11",
+        "x": 8,
+        "y": 7,
+        "rot": 0,
+        "placedAt": 1793880000000,
+        "kind": "animal",
+        "defId": "russet_hen",
+        "cycleStart": 1793876400000
+      },
+      "o12": {
+        "id": "o12",
+        "x": 1,
+        "y": 4,
+        "rot": 0,
+        "placedAt": 1793880000000,
+        "kind": "decoration",
+        "defId": "straw_sentinel"
+      },
+      "o13": {
+        "id": "o13",
+        "x": 2,
+        "y": 7,
+        "rot": 0,
+        "placedAt": 1793880000000,
+        "kind": "decoration",
+        "defId": "rail_fence"
+      },
+      "o14": {
+        "id": "o14",
+        "x": 3,
+        "y": 7,
+        "rot": 0,
+        "placedAt": 1793880000000,
+        "kind": "decoration",
+        "defId": "rail_fence"
+      },
+      "o15": {
+        "id": "o15",
+        "x": 4,
+        "y": 7,
+        "rot": 0,
+        "placedAt": 1793880000000,
+        "kind": "decoration",
+        "defId": "rail_fence"
+      },
+      "o16": {
+        "id": "o16",
+        "x": 5,
+        "y": 7,
+        "rot": 0,
+        "placedAt": 1793880000000,
+        "kind": "decoration",
+        "defId": "rail_fence"
+      },
+      "o17": {
+        "id": "o17",
+        "x": 6,
+        "y": 7,
+        "rot": 0,
+        "placedAt": 1793880000000,
+        "kind": "decoration",
+        "defId": "rail_fence"
+      },
+      "o18": {
+        "id": "o18",
+        "x": 7,
+        "y": 7,
+        "rot": 0,
+        "placedAt": 1793880000000,
+        "kind": "decoration",
+        "defId": "rail_fence"
+      }
+    },
+    "inventory": {
+      "items": {
+        "daisy_bed": 1,
+        "unwither_tonic": 1
+      }
+    },
+    "mastery": {},
+    "stats": {
+      "counters": {}
+    },
+    "fuel": {
+      "units": 0,
+      "anchor": 1793880000000
+    },
+    "materials": {},
+    "collections": {},
+    "ribbons": {},
+    "quests": {
+      "active": {},
+      "done": {}
+    },
+    "daily": {
+      "lastClaimAt": null,
+      "streak": 0,
+      "best": 0,
+      "taskAt": null,
+      "tasks": []
+    },
+    "neighbors": {},
+    "events": {}
+  }
+}

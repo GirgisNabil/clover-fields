@@ -1,0 +1,146 @@
+{
+  "format": "clover-fields",
+  "v": 1,
+  "rev": 321,
+  "savedAt": 1793966400000,
+  "farmId": "fixture-farm",
+  "state": {
+    "v": 1,
+    "meta": {
+      "farmId": "fixture-farm",
+      "createdAt": 1793534400000,
+      "lastNow": 1793966400000,
+      "nextId": 40,
+      "witherSalt": 42
+    },
+    "rng": {
+      "seed": 1234,
+      "counter": 37
+    },
+    "land": {
+      "size": 14,
+      "expansionIndex": 1
+    },
+    "wallet": {
+      "coins": 4210,
+      "clovers": 9
+    },
+    "progress": {
+      "xp": 1450,
+      "level": 11
+    },
+    "objects": {
+      "o1": {
+        "id": "o1",
+        "kind": "building",
+        "defId": "tool_shed",
+        "x": 9,
+        "y": 0,
+        "rot": 0,
+        "placedAt": 1793534400000,
+        "tier": 1,
+        "occupants": []
+      },
+      "o2": {
+        "id": "o2",
+        "kind": "plot",
+        "defId": "plot",
+        "x": 2,
+        "y": 4,
+        "rot": 0,
+        "placedAt": 1793962800000,
+        "soil": "planted",
+        "crop": {
+          "cropId": "clover_sprout",
+          "plantedAt": 1793966220000,
+          "revivedAt": null,
+          "witherProof": false
+        }
+      },
+      "o3": {
+        "id": "o3",
+        "kind": "plot",
+        "defId": "plot",
+        "x": 3,
+        "y": 4,
+        "rot": 0,
+        "placedAt": 1793962800000,
+        "soil": "fallow",
+        "crop": null
+      },
+      "o4": {
+        "id": "o4",
+        "kind": "animal",
+        "defId": "russet_hen",
+        "x": 8,
+        "y": 7,
+        "rot": 0,
+        "placedAt": 1793880000000,
+        "cycleStart": 1793959200000
+      },
+      "o5": {
+        "id": "o5",
+        "kind": "tree",
+        "defId": "rosy_apple",
+        "x": 8,
+        "y": 5,
+        "rot": 0,
+        "placedAt": 1793880000000,
+        "cycleStart": 1793941200000
+      },
+      "o6": {
+        "id": "o6",
+        "kind": "building",
+        "defId": "hen_house",
+        "x": 0,
+        "y": 10,
+        "rot": 0,
+        "placedAt": 1793880000000,
+        "tier": 2,
+        "occupants": [
+          {
+            "id": "o7",
+            "defId": "russet_hen",
+            "cycleStart": 1793959200000
+          }
+        ]
+      },
+      "o8": {
+        "id": "o8",
+        "kind": "decoration",
+        "defId": "daisy_bed",
+        "x": 5,
+        "y": 10,
+        "rot": 0,
+        "placedAt": 1793880000000
+      }
+    },
+    "inventory": {
+      "items": {
+        "unwither_tonic": 1,
+        "rail_fence": 3
+      }
+    },
+    "mastery": {
+      "clover_sprout": {
+        "count": 120,
+        "stars": 0
+      }
+    },
+    "stats": {
+      "counters": {
+        "plow": 140,
+        "plant": 130,
+        "harvest:crop": 126,
+        "harvest:russet_hen": 30,
+        "harvest:rosy_apple": 12,
+        "harvest:animal": 30,
+        "harvest:tree": 12,
+        "coins:earned": 9800
+      }
+    },
+    "fuel": {
+      "units": 0
+    }
+  }
+}
