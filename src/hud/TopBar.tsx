@@ -1,6 +1,7 @@
 "use client";
 
 import { BookOpen, Settings } from "lucide-react";
+import { Logo } from "@/components/brand/Logo";
 import { displayWallet, FEATURE_LEVEL, fuelAt, levelProgress, setsReady } from "@/domain";
 import { projectedFarm, useGame } from "@/game/store/gameStore";
 import { useUi } from "@/game/store/uiStore";
@@ -57,8 +58,8 @@ export function TopBar() {
         </div>
       </div>
 
-      <div className="hidden pt-2 font-display text-xl font-semibold text-white drop-shadow-[0_2px_0_#3d8a24] md:block">
-        🍀 Clover Fields
+      <div className="hidden pt-1.5 md:block">
+        <Logo size={30} textClassName="text-xl drop-shadow-[0_2px_0_#2f7d1f]" />
       </div>
 
       <div className="flex flex-col items-end gap-2 sm:flex-row">

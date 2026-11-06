@@ -20,6 +20,7 @@ import { loadOrCreateFarm, wipeSaves } from "@/game/persistence/saveStore";
 import { useGraphics } from "@/game/quality/graphicsStore";
 import { useGame } from "@/game/store/gameStore";
 import { useUi } from "@/game/store/uiStore";
+import { withBasePath } from "@/lib/site";
 
 const VOLUME_ROWS: Array<[keyof Volumes, string]> = [
   ["master", "🔊 Volume"],
@@ -225,7 +226,12 @@ export function SettingsDialog() {
         </div>
         <p className="text-center text-xs text-muted-foreground">
           3D models by Quaternius, Kay &amp; Isa Lousberg (CC0) and Poly by Google (CC-BY 3.0) ·{" "}
-          <a className="underline" href="/licenses/CREDITS.md" target="_blank" rel="noreferrer">
+          <a
+            className="underline"
+            href={withBasePath("/licenses/CREDITS.md")}
+            target="_blank"
+            rel="noreferrer"
+          >
             credits
           </a>
         </p>

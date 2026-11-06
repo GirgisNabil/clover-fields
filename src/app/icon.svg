@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Clover Fields">
+  <defs>
+    <linearGradient id="cf-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7bd94f"/>
+      <stop offset="1" stop-color="#2f8f24"/>
+    </linearGradient>
+    <linearGradient id="cf-leaf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf2"/>
+      <stop offset="1" stop-color="#f3e7b8"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#cf-bg)"/>
+  <path d="M8 18 Q32 4 56 18 L56 16 Q56 6 46 6 L18 6 Q8 6 8 16 Z" fill="#ffffff" opacity="0.22"/>
+  <rect x="2.75" y="2.75" width="58.5" height="58.5" rx="15.25" fill="none" stroke="#25711c" stroke-width="1.5" opacity="0.6"/>
+  <path d="M33 33 Q40 41 47 52" fill="none" stroke="#f3e7b8" stroke-width="3.6" stroke-linecap="round"/>
+  <g fill="url(#cf-leaf)" stroke="#2a7d20" stroke-width="1" stroke-linejoin="round">
+    <g id="cf-heart">
+      <path d="M32 31 L23.6 22.6 A5.94 5.94 0 0 1 32 14.2 A5.94 5.94 0 0 1 40.4 22.6 Z"/>
+    </g>
+    <use href="#cf-heart" transform="rotate(90 32 32)"/>
+    <use href="#cf-heart" transform="rotate(180 32 32)"/>
+    <use href="#cf-heart" transform="rotate(270 32 32)"/>
+  </g>
+  <circle cx="32" cy="32" r="2.6" fill="#f6c945" stroke="#c99a1f" stroke-width="0.8"/>
+</svg>

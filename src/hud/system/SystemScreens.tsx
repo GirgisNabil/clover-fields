@@ -3,6 +3,7 @@
 import { useProgress } from "@react-three/drei";
 import { motion } from "motion/react";
 import { useEffect, useState } from "react";
+import { Logo } from "@/components/brand/Logo";
 import { useSaveStatus } from "@/game/persistence/saveStatus";
 
 const TIPS = [
@@ -27,9 +28,7 @@ export function LoadingScreen({ done }: { done: boolean }) {
       data-testid="loading"
     >
       <div className="flex w-72 flex-col items-center gap-4">
-        <p className="font-display text-4xl font-semibold text-white drop-shadow-[0_3px_0_#3d8a24]">
-          🍀 Clover Fields
-        </p>
+        <Logo size={64} textClassName="text-4xl" />
         <div
           className="h-4 w-full overflow-hidden rounded-full border-4 border-white bg-white/40"
           role="progressbar"
@@ -63,8 +62,9 @@ export function NoWebGL() {
   return (
     <div className="fixed inset-0 grid place-items-center bg-sky p-6" role="alert">
       <div className="max-w-md rounded-2xl border-4 border-wood bg-cream p-6 text-center shadow-press">
+        <Logo size={56} wordmark={false} className="mb-2" />
         <p className="font-display text-2xl font-semibold text-ink">
-          🍀 Clover Fields needs 3D graphics
+          Clover Fields needs 3D graphics
         </p>
         <p className="mt-2 text-sm text-ink">
           Your browser couldn't start WebGL. Try turning on hardware acceleration in its settings,

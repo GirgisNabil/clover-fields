@@ -11,6 +11,7 @@ import {
   type Object3D,
 } from "three";
 import { clone as cloneSkinned } from "three/addons/utils/SkeletonUtils.js";
+import { withBasePath } from "@/lib/site";
 import type { Fit, ModelVisual } from "./catalogVisuals";
 import { MODELS, type ModelKey } from "./manifest";
 
@@ -54,14 +55,14 @@ function prepare(scene: Object3D) {
 
 /** A fresh copy of a model (own skeleton, shared geometry and materials) plus its clips. */
 export function useModel(key: ModelKey): { scene: Object3D; clips: AnimationClip[] } {
-  const gltf = useGLTF(MODELS[key].url);
+  const gltf = useGLTF(withBasePath(MODELS[key].url));
   prepare(gltf.scene);
   const scene = useMemo(() => cloneSkinned(gltf.scene), [gltf.scene]);
   return { scene, clips: gltf.animations };
 }
 
 export function preloadModel(key: ModelKey) {
-  useGLTF.preload(MODELS[key].url);
+  useGLTF.preload(withBasePath(MODELS[key].url));
 }
 
 /** Uniform scale and offset that seat a model on its footprint, centered, resting on the ground. */

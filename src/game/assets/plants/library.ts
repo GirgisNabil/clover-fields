@@ -1,6 +1,7 @@
 import { BufferGeometry, Float32BufferAttribute, type Matrix4, type Mesh, Vector3 } from "three";
 import { MeshoptDecoder } from "three/addons/libs/meshopt_decoder.module.js";
 import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+import { withBasePath } from "@/lib/site";
 import { PLANT_MESHES, PLANTS_URL, type PlantMesh } from "../plantManifest";
 
 // The baked plant meshes (crops and fruit trees), loaded once at boot so the field renderer and
@@ -51,7 +52,7 @@ let loading: Promise<void> | null = null;
 export function loadPlants(): Promise<void> {
   loading ??= new GLTFLoader()
     .setMeshoptDecoder(MeshoptDecoder)
-    .loadAsync(PLANTS_URL)
+    .loadAsync(withBasePath(PLANTS_URL))
     .then((gltf) => {
       gltf.scene.updateMatrixWorld(true);
       gltf.scene.traverse((child) => {
